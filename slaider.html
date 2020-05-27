@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css_ex/style_ex.css">
+    <link rel="stylesheet" href="media_ex/media_ex.css">
+</head>
+<body>
+
+  <div class="sim-slider">
+      <div class="sim-slider_wrapper">
+
+   <div class="header_bot_r">
+        <h3>Долго, дорого, скрупулёзно</h3>
+        <p>Математически выверенный дизайн 
+        <br/>для вашего сайта или мобильного приложения.</p>
+
+        <div class="tell_form">
+            <input type="checkbox" id="callback">
+            <label class="btn" for="callback">узнать больше</label>
+          
+            <form class="popup" method="POST">
+              <span>Введите Ваши данные</span>
+              <input required type="text" placeholder="ФИО*" name="tell_form_name">
+              <input required type="email" placeholder="E-mail*" name="tell_form_email">
+              <button class="button_more">отправить</button>
+              <label class="close" for="callback">+</label>
+            </form>
+        </div>
+    </div>  
+<div class="header_bot_l">
+    <ul class="sim-slider-list">
+      <li class="sim-slider-element"><img src="images_ex/slider1.png" alt="0"></li>
+      <li class="sim-slider-element"><img src="images_ex/slider2.png" alt="1"></li>
+      <li class="sim-slider-element"><img src="images_ex/slider3.png" alt="2"></li>
+    </ul>
+</div>
+    <div class="sim-slider-arrow-left"></div>
+    <div class="sim-slider-arrow-right"></div>
+    <div class="sim-slider-dots"></div>
+  </div>
+</div>
+
+  <script src="js_ex/script.js"></script>
+<!-- вызов слайдера -->
+<script>new Sim()</script>
+
+</body>
+</html>
